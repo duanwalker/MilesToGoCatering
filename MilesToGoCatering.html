@@ -1,82 +1,162 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Miles To Go Catering</title>
-		<meta name="description" content="Home of 'My Girls Catering and Food Truck'" />
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta charset="UTF-8">
-    	<meta name="author" content="Duan Walker">
-    	<link rel="icon" href="images/favicon.ico">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--Bootstrap Styles and Theme-->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet" >
-  		<link href="assets/css/bootstrap.css" rel="stylesheet"  >
-  		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    	<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-	</head>
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<div class="container">
-		<div class="navbar-wrapper ">
-			<!--Navigation bar section-->
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Miles To Go Catering</a>
-			    </div>
+<html lang="en">
 
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Menu</a></li>			       
-			      </ul>   
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">Link</a></li>
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
-		</div>
-		<!-- END nav section-->
-		<!-- Jumbotron section-->
-		<div class="jumbotron">
-			<div class="container">
-  				<h1>Miles To Go Catering Service</h1>
-  				<p>Thanks for visiting Miles To Go. You can download our menu below.</p>
-  				<p><a class="btn btn-primary btn-lg" href="assets/images/MilesToGoCateringMenu.doc">Menu</a></p>
-  			</div>
-		</div>
-		<!--About Us Section-->
-      	<hr id="about" class="featurette-divider">
+<head>
 
-      	<div class="row featurette">
-        	<div class="col-md-7">
-          		<h2 class="featurette-heading">We proudly cater <span class="text-muted">ALL</span> your events!</h2>
-          		<p class="lead">We are a full service catering company serving: weddings, small-mid sized corporate events, and all of your custom events! Give us a call and tell us about your next event!</p>
-        	</div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="assets/images/salad-with-cheese-and-eggs_1157-358.jpg" alt="salad">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home of Miles To Go Catering service">
+    <meta name="author" content="Duan Walker">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    <title>Miles To Go Catering</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" >
+    <!-- Custom CSS -->
+    <link href="assets/css/business-frontpage.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Miles To Go Catering</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="assets/images/MilesToGoCateringMenu.doc">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      	</div>
-		<!-- FOOTER section-->
-		<br>
-      	<footer>
-        	<p class="pull-right"><a href="#">Back to top</a></p>
-        	<p>&copy; Built with &#9829; by &middot; <a href="theduan.herokuapp.com" >Duan Walker 2017<a/> &middot; </p>
-      	</footer>
-      	</div><!-- /.container -->
+        <!-- /.container -->
+    </nav>
 
-    	<!-- Add jQuery-->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    	<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    	<!-- Add Smooth Scrolling -->
-  		<script src="assets/js/smoothScrolling.js"></script> 
-  		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  		<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-	</body>
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Miles To Go Catering</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container" id="contact">
+
+        <hr>
+
+        <div class="row" >
+            <div class="col-sm-8">
+                <h2 class="featurette-heading">We proudly cater <span class="text-muted">ALL</span> your events!</h2>
+                <p class="lead">We are a full service catering company serving: weddings, small-mid sized corporate events, and all of your custom events! Give us a call and tell us about your next event!</p>
+                    <a class="btn btn-default btn-lg" href="assets/images/MilesToGoCateringMenu.doc">Menu Download &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <strong>Miles To Go Catering</strong>
+                    <br>7612 Rockland Dr
+                    <br>Charlotte,NC 28213
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone">P:</abbr>(704) 224-8817
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">milestogocatering@gmail.com</a>
+                </address>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row" id="featurettes">
+            <div class="col-sm-4">
+                <img class="img-thumbnail img-responsive img-center" src="assets/images/catering-buffet_1203-2320.jpg" alt="">
+                <h2>Friendly Staff</h2>
+                <p>We offer a full kitchen staff for all events. Let us focus on the food while you enjoy your event.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-thumbnail img-responsive img-center" src="assets/images/FriedChicken.jpg" alt="">
+                <h2>Full Service</h2>
+                <p>We take care of your guests with our helpfull and frinedly staff. We specialize in office, wedding and sporting event catering.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-thumbnail img-responsive img-center" src="assets/images/salad-with-cheese-and-eggs_1157-358.jpg" alt="">
+                <h2>Affordable Pricing</h2>
+                <p>We cater to guests <span class="text-muted">AND</span> wallets. Serving you the best while staying well within your budget.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Miles To Go Catering &copy;</p>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <p class="pull-right"> Built with &#9829; by &middot; <a href="theduan.herokuapp.com" >Duan Walker 2017<a/> &middot; </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <!-- Add Smooth Scrolling -->
+        <script src="assets/js/smoothScrolling.js"></script> 
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
