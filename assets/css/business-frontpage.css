@@ -25,7 +25,14 @@ background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, F
         }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
-
+.business-header img{
+    position: relative;
+    top:0;
+    left:0;
+    height:310px;
+    width:400px;
+    float:right;
+}
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
