@@ -30,11 +30,26 @@ background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, F
     top:0;
     left:0;
     height:310px;
-    width:400px;
+    width:425px;
     float:right;
 }
+.business-header h1{
+    position: relative;
+    top:20px;
+    left:0;
+    font-size: 44px;
+    float:left;
+}
+.business-header p{
+    position: relative;
+    top:30px;
+    left:0;
+    font-size: 20px;
+    float:left;
+    text-shadow: 0 0 3px #000;
+}
 .tagline {
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #000;
     color: #fff;
 }
 
