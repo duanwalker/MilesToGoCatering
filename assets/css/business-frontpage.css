@@ -75,19 +75,19 @@ footer {
         position:relative;
         width:275px;
         height:200px;
-        top:35px;
+        top:20px;
         
         
     }
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 600px){
 
     .tagline{
         font-size: 12px;
     }
     .business-header img{
         float:right;
-        position:relative;
+        position:absolute;
         width:150px;
         height:100px;
         top:0;
