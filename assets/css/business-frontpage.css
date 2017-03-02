@@ -28,10 +28,12 @@ background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, F
 .business-header img{
     position: relative;
     top:0;
-    left:0;
+    right:20px;
     height:310px;
     width:425px;
     float:right;
+    padding:5px;
+    margin: 5px;
 }
 .business-header h1{
     position: relative;
@@ -39,6 +41,7 @@ background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, F
     left:0;
     font-size: 44px;
     float:left;
+    padding: 10px;
 }
 .business-header p{
     position: relative;
@@ -80,7 +83,7 @@ footer {
 @media only screen and (max-width: 640px){
 
     .tagline{
-        font-size: 15px;
+        font-size: 12px;
     }
     .business-header img{
         float:right;
