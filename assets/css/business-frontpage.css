@@ -93,10 +93,13 @@ footer {
     .business-header img{
         float:right;
         position:absolute;
-        width:135px;
-        height:100px;
+        width:125px;
+        height:90px;
         top:0;
-        right:0;
+        right:-5px;
         
+    }
+    .business-header {
+    height: 300px;
     }
 }
