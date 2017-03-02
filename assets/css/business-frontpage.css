@@ -80,7 +80,7 @@ footer {
 @media only screen and (max-width: 640px){
 
     .tagline{
-        font-size: 20px;
+        font-size: 15px;
     }
     .business-header img{
         float:right;
@@ -88,7 +88,7 @@ footer {
         width:150px;
         height:100px;
         top:0;
-        
+        right:0;
         
     }
 }
