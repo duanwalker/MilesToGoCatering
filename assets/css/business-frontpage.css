@@ -64,3 +64,15 @@ height:250px;
 footer {
     margin: 50px 0;
 }
+@media only screen and (max-width: 768px){
+
+    .business-header img{
+        float:left;
+        position:relative;
+        width:275px;
+        height:200px;
+        top:35px;
+        
+        
+    }
+}
