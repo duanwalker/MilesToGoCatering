@@ -64,6 +64,7 @@ height:250px;
 footer {
     margin: 50px 0;
 }
+/*Responsivity!*/
 @media only screen and (max-width: 768px){
 
     .business-header img{
@@ -71,6 +72,18 @@ footer {
         position:relative;
         width:275px;
         height:200px;
+        top:35px;
+        
+        
+    }
+}
+@media only screen and (max-width: 640px){
+
+    .business-header img{
+        float:left;
+        position:relative;
+        width:75px;
+        height:100px;
         top:35px;
         
         
